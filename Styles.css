@@ -6,6 +6,8 @@
 
 html {
     font-size: 14px;
+    height: 100%;
+    display: grid;
 }
 
 body {
@@ -15,6 +17,7 @@ body {
     align-items: center;
     background-color: hsl(30, 38%, 92%);
     font-family: "Montserrat", sans-serif;
+    
 }
 
 .container {
@@ -25,6 +28,7 @@ body {
     display: flex;
     flex-direction: column;
     overflow: hidden;
+    margin: 16px;
 }
 
 .image-container {
@@ -48,7 +52,7 @@ body {
 .text-container {
     display: flex;
     flex-direction: column;
-    margin: 4%;
+    margin: 8%;
 }
 
 .text-container h2 {
@@ -56,13 +60,14 @@ body {
     color: hsl(228, 12%, 48%);
     letter-spacing: .3rem;
     font-weight: 400;
+    font-size: 1rem;
 }
 
 
 .text-container h1 {
     font-family: "Fraunces", serif;
     font-weight: bold;
-    font-size: 3rem;
+    font-size: 2rem;
     color: hsl(212, 21%, 14%);
     margin-top: 12px;
 }
@@ -70,7 +75,7 @@ body {
 .text-container p {
     color: hsl(228, 12%, 48%);
     line-height: 1.5;
-    font-size: 1.2rem;
+    font-size: 1rem;
     margin-top: 16px;
 }
 
@@ -83,13 +88,13 @@ body {
 
 .actual-price {
     font-family: "Fraunces", serif;
-    font-size: 3rem;
+    font-size: 2rem;
     color: hsl(158, 36%, 37%);
     margin-right: 5.5%;
 }
 
 .previous-price {
-    font-size: 1.3rem;
+    font-size: 1rem;
     text-decoration: line-through;
     color: hsl(228, 12%, 48%);
 }
@@ -119,7 +124,7 @@ body {
     text-decoration: none;
     color: white;
     font-weight: bold;
-    font-size: 1.3rem;
+    font-size: 1rem;
 }
 
 /*desktop style*/
